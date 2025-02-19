@@ -87,6 +87,7 @@ class Homepage:
 
                                             messagebox.showinfo('Send Money', 'Sent Successfuly! Thank you for using My E-Wallet App!')
                                             self.refresh = home_page()
+                                            self.send_window.destroy()
                                         else:
                                             self.warninglabel.config(text='Insufficient Balance')
                                     except Exception as e:
