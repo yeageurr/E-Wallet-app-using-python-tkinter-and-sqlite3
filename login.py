@@ -346,7 +346,7 @@ class Login:
         self.inputfields = tk.Frame(self.login_window, width=400, height=275, bg='#61fc56', pady=10)
         self.inputfields.pack_propagate(False)
         self.inputfields.pack(anchor=tk.CENTER, pady=10)
-        self.loginframe = login(self.login_window, 10)
+        self.loginframe = login(self.login_window, 11)
 
 
 if __name__ == '__main__':
